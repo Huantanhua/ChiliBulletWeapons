@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "chilibulletweapons",
+  "version": "${version}",
+  "name": "Chili Bullet Weapons",
+  "description": "Adds chili pepper, weapons, and foods.",
+  "authors": [
+    "Iunius118"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Iunius118/ChiliBulletWeapons#readme",
+    "sources": "https://github.com/Iunius118/ChiliBulletWeapons"
+  },
+  "license": "MIT license",
+  "icon": "assets/chilibulletweapons/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.github.iunius118.chilibulletweapons.fabric.ChiliBulletWeaponsFabric"
+    ]
+  },
+  "depends": {
+    "fabric": "*",
+    "minecraft": ">=1.20.4",
+    "architectury": ">=11.0.1"
+  }
+}
