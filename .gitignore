@@ -1,6 +1,8 @@
 build/
 *.ipr
 run/
+runs/
+run-data/
 *.iws
 out/
 *.iml

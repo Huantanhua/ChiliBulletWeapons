@@ -3,7 +3,7 @@
   "id": "chilibulletweapons",
   "version": "${version}",
   "name": "Chili Bullet Weapons",
-  "description": "Adds chili pepper, weapons, and foods.",
+  "description": "Adds chili peppers, foods, and weapons.",
   "authors": [
     "Iunius118"
   ],
@@ -17,11 +17,17 @@
   "entrypoints": {
     "main": [
       "com.github.iunius118.chilibulletweapons.fabric.ChiliBulletWeaponsFabric"
+    ],
+    "client": [
+      "com.github.iunius118.chilibulletweapons.fabric.client.ChiliBulletWeaponsFabricClient"
     ]
   },
+  "mixins": [
+    "chilibulletweapons.mixins.json"
+  ],
   "depends": {
     "fabric": "*",
     "minecraft": ">=1.20.4",
-    "architectury": ">=11.0.1"
+    "architectury": ">=11.0.0"
   }
 }
